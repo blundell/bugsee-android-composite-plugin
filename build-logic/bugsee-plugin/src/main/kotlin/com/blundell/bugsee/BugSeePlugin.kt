@@ -18,7 +18,7 @@ class BugSeePlugin : Plugin<Project> {
 
     override fun apply(target: Project) {
         target.run {
-            plugins.apply("bugsee")
+            plugins.apply("com.bugsee.android.gradle")
             val bugsee = extensions.findByType(BugseePluginExtension::class.java)
                 ?: throw IllegalStateException("""The "bugsee" plugin needs to be applied to your project first.""")
             with(bugsee) {

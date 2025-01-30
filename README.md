@@ -1,5 +1,7 @@
 # BugSee Android Gradle composite build plugin
 
+Blog here: https://blog.blundellapps.co.uk/android-bugsee-sdk-ignore-the-docs-do-this-instead/
+
 `/app`
 - The main app build
 
